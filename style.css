@@ -1,0 +1,239 @@
+@font-face {
+    font-family:cano;
+    src: url(./Canopee.ttf);
+}
+@font-face {
+    font-family:doma;
+    src: url(./Domaine.ttf);
+}
+@font-face {
+    font-family:editoM;
+    src: url(./EditorialNew-Medium.ttf);
+}
+@font-face {
+    font-family:editolite;
+    src: url(./EditorialNew-Light.ttf);
+}
+#main{
+    background-color: #1C1B19;
+    overflow-x:  hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: #C6BEB5;
+    position: relative;
+    overflow:hidden;
+}
+#nav{
+    height: 10vh ;
+    width: 100%;
+    display:flex;
+    background-color: #C6BEB5;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+    border-bottom: 1px solid black;
+}
+#nav img{
+    height: 4vh;
+    width: 30%;
+
+}
+#nav h5{
+    font-size: 1.2vw;
+    font-weight: 20;
+    width: 30%;
+    font-family:editolite;
+}
+#nav i{
+    width:30%;
+    text-align: right;
+}
+#element
+{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw ;
+}
+#element1{
+    height:100%;
+    width: 30%;
+    
+}
+#element2{
+    height:100%;
+    width: 30%;
+    border-left: 2px solid rgb(141, 141, 141);
+    border-right: 2px solid rgb(141, 141, 141);
+    text-align: center;
+    
+}
+#element3{
+    height:100%;
+    width: 30%;
+    
+}
+#image_div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all ease 0.4s;
+    border: #1C1B19 solid 1px;
+}
+#element1 #image_div{
+    height: 60%;
+    width:  100%;
+    overflow: hidden;
+    
+}
+#element3 #image_div{
+    height: 60%;
+    width:  100%;
+    overflow:hidden;
+}
+#image_div:hover img{
+    scale: 1.1;
+}
+#element1 h4{
+    font: size 1.6vw;
+    margin-top:1vh;
+    margin-bottom:1vw;
+    font-family:cano;
+
+}
+#element1 h4 span{
+    background-color: #B43B12;
+    color: #C6BEB5;
+    font-weight: 100;
+    font-size: 1.6vw;
+    margin-left: 1vw;
+    border-radius: 4px;
+}
+#element3 h4{
+    font: size 1.6vw;
+    margin-top:1vh;
+    margin-bottom:1vw;
+    font-family:cano;
+
+}
+#element3 h4 span{
+    background-color: #B43B12;
+    color: #C6BEB5;
+    font-weight: 100;
+    font-size: 1.6vw;
+    margin-left: 1vw;
+    border-radius: 4px;
+}
+#element1 p{
+    font-size:1.3vw;
+    font-family: doma;
+    font-weight: 100;
+    color:#666566;
+}
+#element3 p{
+    font-size:1.3vw;
+    font-family:doma;
+    font-weight: 100;
+    color:#666566;
+}
+#element2 h2{
+    font-family: cano;
+    font-size: 2.5vw;
+    font-weight: 100;
+    
+}
+#element2 h3{
+    font-family:doma;
+    font-size: 2.4vw;
+    font-weight:100; 
+    margin: 24px ;
+}
+#element2 h6{
+    font-family:doma;
+    font-size: 1.5vw;
+    font-weight:100; 
+}
+#page1 h1{
+    font-size: 15vw;
+    font-family:cano;
+    color: #C5BDB4;
+    font-weight: 100;
+    background-color: #1C1B19;
+    line-height:14vw;
+    width: 100%;;
+    text-align:center;
+    letter-spacing: -0.5vw;
+}
+#page2
+{
+    height:130vh ;
+    width:100vw;
+    background-color: #C6BEB5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh 2vh;
+}
+#leftdiv{
+    height: 100%;
+    width: 40%;
+    padding-right: 15vh;
+    border-right: #1C1B19 solid 1px;
+}
+#leftdiv h2{
+    font-family: cano;
+    font-size: 10vh;
+    font-weight: 100;
+    text-align: center;
+    line-height: 5vw;
+}
+#leftdiv h2 span{
+        font-family: cano;
+        font-size: 14vh;
+        font-weight: 90;
+        text-align: center;
+        line-height: 5vw;
+    }
+#leftdiv img{
+    width: 100%;
+    height: 30%;
+    object-fit:cover;
+    border: #1C1B19 solid 1px;
+}
+#leftdiv p{
+    font-family: doma;
+    font-size: 3vh;
+}
+#rightdiv{
+    height: 100%;
+    width: 70%;
+    align-items: center;
+    padding: 0 5vw;
+}
+#rightdiv img{
+    height: 50%;
+    width: 100%;
+    object-fit:cover;
+    border: #1C1B19 solid 1px;
+}
+#rightdiv h1{
+    font-family: doma;
+    font-size: 6vh;
+    
+}
+#page3
+{
+    
+}
